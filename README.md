@@ -7,3 +7,5 @@ So I created this extension which blocks me from doing that. It's simple: it sen
 It does so via the manifest.json file, which waits for the match: facebook.com, then sends the alert message.
 
 It serves as a reminder to continue working on things. And it also makes you mindful of the impulsive Facebook checking! :o 
+
+Update: Making use of local storage, the alert will inform you how many times you tried accessing Facebook(note: this is a 'todo', and has not yet been added).
