@@ -1,8 +1,8 @@
 # facebook-blocker
 
-I find myself checking Facebook, almost impulsively, during the times I'm trying to be productive. 
+I find myself checking Facebook, almost impulsively, during the times I'm trying to be productive. I'm positive I'm not the only one.
 
-So I created this extension which blocks me from doing that. It's simple: it sends an alert message, forever, blocking you from doing anything else other than clicking "ok", or "cancel". 
+So I created this extension to limit that behavior. It's simple: it sends an alert message, forever, blocking you from doing anything else other than clicking "ok", or "cancel". 
 
 It does so via the manifest.json file, which waits for the match: facebook.com, then sends the alert message.
 
