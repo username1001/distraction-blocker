@@ -8,6 +8,6 @@ It does so via the manifest.json file, which waits for the match: facebook.com, 
 
 It serves as a reminder to continue working on things. And it also makes you mindful of the impulsive Facebook checking! :o 
 
-Update: Making use of local storage, a user will be able to view how many times they tried accessing Facebook(note: this is a 'todo', and has not yet been added)
+<strong>Update</strong>: Making use of local storage, a user will be able to view how many times they tried accessing Facebook(note: this is a 'todo', and has not yet been added)
 
-Update #2: Added a toggle button to the extension, which will be used to enable/disable the script(i.e. the alert box.) 
+<strong>Update #2</strong>: Added a toggle button to the extension, which will be used to enable/disable the script(i.e. the alert box.) 
