@@ -6,7 +6,7 @@ So I created this extension to limit that behavior. It's simple: it sends an ale
 
 It does so via the manifest.json file, which waits for the match: facebook.com, then sends the alert message.
 
-It serves as a reminder to continue working on things. And it also makes you mindful of the impulsive Facebook checking! :o 
+It serves as a reminder to continue working on things. And it also makes you mindful of impulsive Facebook checking! :o 
 
 <strong>Update</strong>: Making use of local storage, a user will be able to view how many times they tried accessing Facebook(note: this is a 'todo', and has not yet been added)
 
