@@ -1,33 +1,31 @@
-// let get_off_facebook = true;
+/* For some reason, the extension will not open popup.html, and allow the click of 
+** a button. Rather, when the extension itself is clicked, it sends the alert.
+** 
+** A mess of code for now.
+*/
 
-// while (get_off_facebook) {
-//   alert('Blocked on your request. Get back to work!');
+
+// const changeStatus = () => {
+//   document.addEventListener('DOMContentLoaded',function() {
+//     document.querySelector('select[name="active-status"]').onchange = changeEventHandler;
+//   },false);
 // };
 
-
-
-const activeStatus = (status) => {
-  // Default value set to true.
-  status = true;
-
-  do {
-  	alert('Blocked on your request. Get back to work!');
-  } 
-  while (status);
-};
-
-activeStatus();
-
-document.addEventListener('DOMContentLoaded',function() {
-    document.querySelector('select[name="active-status"]').onchange=changeEventHandler;
-},false);
-
-function changeEventHandler(event) {
-    // You can use “this” to refer to the selected element.
-    if(event.target.value === 'off') {
-
-    } 
-}
+// const changeEventHandler = (event) => {
+  // If value is off, set status to false.
+  // if(document.getElementById('on').value === 'on') {
+  //   event = true;
+  // }
+  // Else, it's on, thus status = true.
+  // else {
+  //   event = false;
+  // }
+  // Depending on status's value, the do/while will execute.
+//   do {
+//     alert('Blocked on your request. Get back to work!');
+//   }
+//   while (status);
+// };
 
 // const onoff = () => {
 //   let currentvalue = document.getElementById('onoff').value;
@@ -41,3 +39,12 @@ function changeEventHandler(event) {
 
 // Local storage will keep track of the user's visits.
 //localStorage.setItem();
+
+
+// function activate() {
+//   var alertMessage = true;
+
+//   while (alertMessage) {
+//   	alert('Blocked on your request. Get back to work!');
+//   }
+// }
