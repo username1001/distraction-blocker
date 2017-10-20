@@ -1,4 +1,4 @@
-# facebook-blocker
+# distraction-blocker
 
 I find myself checking Facebook, almost impulsively, during the times I'm trying to be productive. I'm positive I'm not the only one.
 
