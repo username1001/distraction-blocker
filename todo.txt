@@ -1,0 +1,2 @@
+1. Create an input bar which takes a valid URL and adds it to a list of blocked sites.
+
