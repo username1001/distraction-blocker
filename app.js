@@ -9,8 +9,10 @@ function runAlert() {
   while (blocked) {
     alert('Blocked on your request. Get back to work!');
   }
-  if () {
-
-  } 
 };
 
+dis.addEventListenet('click', disable);
+
+function disable() {
+  return;
+};
