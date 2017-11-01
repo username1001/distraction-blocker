@@ -1,3 +1,24 @@
 .switch {
   padding: 10px;
 }
+button {
+  cursor: pointer;
+}
+.controls {
+  padding: 7px;
+  border: none;
+  background-color: lightblue;
+  color: white;
+}
+#enterURL {
+  padding: 5px;
+  border: none;
+  background-color: rgb(27, 48, 69);
+  color: white;
+}
+input {
+  border: none;
+  margin-top: 0.5em;
+  margin-bottom: 2em;
+}
+
