@@ -3,7 +3,7 @@ const act = document.getElementById('activate');
 const dis = document.getElementById('disable');
 const array_of_URL = [];
 
-localStorage.setItem(array_of_URL);
+//localStorage.setItem(array_of_URL);
 
 act.addEventListener('click', runAlert);
 
@@ -19,9 +19,17 @@ function runAlert() {
 dis.addEventListenet('click', disable);
 
 function disable() {
-  return false;
+  //
 };
 
 let url = document.getElementById('inputURL');
+const urlButton = document.getElementById('enterURL');
 
+urlButton.addEventListener('click', function() {
+  //
+});
+
+if (url === undefined || url === '') {
+  alert('Invalid.');
+}
 
